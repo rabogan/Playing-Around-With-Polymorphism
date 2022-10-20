@@ -76,6 +76,9 @@ public:
 		return new MammalianPrey(*this);
 	}
 
+	virtual ~MammalianPrey() {
+	}
+
 	void setNumber(int num) {
 		number = num;
 	}
@@ -106,6 +109,9 @@ public:
 
 	virtual MonsterPrey* Clone() const {
 		return new MonsterPrey(*this);
+	}
+
+	virtual ~MonsterPrey() {
 	}
 
 	void setStatus(bool status) {
