@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
 #include<sstream>
-#include<exception>
 using namespace std;
 
 class Animal {
