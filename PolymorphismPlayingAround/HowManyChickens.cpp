@@ -7,7 +7,7 @@ using namespace std;
 class Animal {
 protected:
 	string name;
-	double weight;
+	double weight = 0.0;
 public:
 	Animal() {
 	}
@@ -87,7 +87,7 @@ public:
 
 class MonsterPrey :public Animal {
 private:
-	bool asleep;
+	bool asleep{};
 public:
 	MonsterPrey() {
 	}
